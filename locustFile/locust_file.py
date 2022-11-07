@@ -195,7 +195,7 @@ class UserBehavior(HttpUser):
                 "hashEpkId": "UNKNOWN",
                 "appVersionNumber": random.choice(appVersionNumber),
                 "clientBlock": random.choice(clientBlock),
-                "sessionId": random.choice(todayManual) + "T" + time + ".144+03:00 MswrBTYLvtH1xaTmxVxSNwxXIMAEBIoa",
+                "sessionId": random.choice(todayManual) + "T" + time + ".144+03:00 "+devices_hash,
                 "hashUserLoginId": login_hash,
                 "deviceId": devices_hash,
                 "hashEfsId": "UNKNOWN"
@@ -212,6 +212,2546 @@ class UserBehavior(HttpUser):
                         {
                             "key":  random.choice(key),
                             "value":  random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        },
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
+                        }
+                    ],
+                    "timeStamp": random.choice(todayManual) + "T" + time + ".417+03:00",
+                    "eventAction": "Main Show"
+                },
+                {
+                    "batteryLevel": str(random.randrange(5, 100)),
+                    "connectionType": random.choice(connectionType),
+                    "eventType": "business",
+                    "geoLatitude": "55.7408994",
+                    "geoLongitude": "37.5318225",
+                    "internalIP": "10.8.7.35",
+                    "properties": [
+                        {
+                            "key": random.choice(key),
+                            "value": random.choice(value),
                         },
                         {
                             "key": random.choice(key),
